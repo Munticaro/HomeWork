@@ -3,7 +3,7 @@ import Message from './message/Message'
 import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
-
+import avatar from './avatar.png'
 
 /*
 * 1 - описать тип MessageType
@@ -34,7 +34,7 @@ export type TextType={
 export const message0: MessageType = {
     id: 0,
     user: {
-        avatar: 'hws2-master/src/s2-homeworks/hw1/avatar.png', // можно менять
+        avatar, // можно менять
         name: 'Ivan',  // можно менять
     },
     message: {
@@ -45,7 +45,7 @@ export const message0: MessageType = {
 export const friendMessage0: MessageType = {
     id: 100,
     user: {
-        avatar: 'hws2-master/src/s2-homeworks/hw1/avatar.png', // можно менять
+        avatar: avatar, // можно менять
         name: 'Ivan', // можно менять
     },
     message: {
