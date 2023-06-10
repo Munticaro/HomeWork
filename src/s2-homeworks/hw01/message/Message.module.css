@@ -1,61 +1,86 @@
-* {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+.friendMessage {
+
 }
 
-.message {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    position: relative;
+.friendImageAndText {
+
 }
 
-.time {
-    position: absolute;
-    top: 0;
-    left: -70px;
-    font-size: 12px;
-    color: #ccc;
+.friendImageAndText img {
+
 }
 
-.imageAndText {
-    display: flex;
-    align-items: center;
+.friendText {
+
 }
 
-.imageAndText img {
-    border-radius: 50%;
-    margin-right: 10px;
+.friendText:after {
+
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    max-width: 70%;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #f4f4f4;
-    position: relative;
+.friendName {
+
 }
 
-.text:after {
-    content: "";
-    position: absolute;
-    border-style: solid;
-    border-width: 0 10px 10px 0;
-    border-color: transparent #f4f4f4;
-    display: block;
-    width: 0;
-    z-index: 1;
-    bottom: -10px;
-    left: 5px;
+.friendMessageText {
+
 }
 
-.name {
-    font-weight: bold;
-    margin-bottom: 5px;
+.friendTime {
+
 }
 
-.messageText {
-    font-size: 16px;
-    line-height: 1.4;
-}
+/*.friendMessage {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: flex-start;*/
+/*    margin: 24px 0 23px;*/
+/*}*/
+
+/*.friendImageAndText {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    align-items: center;*/
+/*    max-width: 70%;*/
+/*}*/
+
+/*.friendImageAndText img {*/
+/*    width: 48px;*/
+/*    height: 48px;*/
+/*    border-radius:70%;*/
+/*}*/
+
+/*.friendText {*/
+/*    background-color: #0059b3;*/
+/*    padding: 8px;*/
+/*    border-radius: 8px;*/
+/*    font-weight: 400;*/
+/*    font-size: 16px;*/
+/*    color: #ffffff;*/
+/*    margin-right: 8px;*/
+/*    max-width: 60%;*/
+/*}*/
+
+/*.friendText:after {*/
+/*    content: "";*/
+/*    display: table;*/
+/*    clear: both;*/
+/*}*/
+
+/*.friendName {*/
+/*    font-weight: 600;*/
+/*    font-size: 12px;*/
+/*    color: #777777;*/
+/*    margin-right: 8px;*/
+/*}*/
+
+/*.friendMessageText {*/
+/*    margin-top: 4px;*/
+/*}*/
+
+/*.friendTime {*/
+/*    font-weight: 600;*/
+/*    font-size: 10px;*/
+/*    color: #777777;*/
+/*    margin-right: 8px;*/
+/*}*/
