@@ -18,7 +18,7 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
     }
 ) => {
 
-    const finalClassName = s.button
+    const finalClassName = `${s.button} ${s.default} ${className || ''}`
         + (disabled
             ? ` ${s.disabled}`
             : xType === 'red'
