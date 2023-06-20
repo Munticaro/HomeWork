@@ -1,36 +1,64 @@
 .sendForm {
-
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .textarea {
-    position: absolute;
-    width: 976px;
-    height: 40px;
-    left: 70px;
-    top: 432px;
-
-    background: #F5F7FB;
-    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
-    border-radius: 20px;
+    resize: none;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 .button {
-    position: absolute;
-    width: 120px;
-    height: 40px;
-    left: 1090px;
-    top: 432px;
-
-    background: #0066CC;
-    border-radius: 20px;
-    color: #FFFFFF;
+    background-color: #0066CC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .button:hover {
-    background: #0066CC;
+    background-color: #0052a3;
 }
 
 .button:active {
-    background: #0066CC;
+    background-color: #003d80;
 }
+/*.sendForm {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.textarea {*/
+/*    resize: none;*/
+/*    height: 60px;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    border-radius: 5px;*/
+/*    border: 1px solid gray;*/
+/*}*/
+
+/*.button {*/
+/*    background-color: #0066CC;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    padding: 10px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.button:hover {*/
+/*    background-color: #0052a3;*/
+/*}*/
+
+/*.button:active {*/
+/*    background-color: #003d80;*/
+/*}*/
 
