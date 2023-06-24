@@ -29,9 +29,9 @@ function Pages() {
             <Routes>
                 <Route path={'/'} element={<Navigate to={'/pre-junior'}/>}/>
 
-                <Route path={'/pre-junior'} element={<PreJunior/>}/>
-                <Route path={'/junior'} element={<Junior/>}/>
-                <Route path={'/junior-plus'} element={<JuniorPlus/>}/>
+                <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
+                <Route path={PATH.JUNIOR} element={<Junior/>}/>
+                <Route path={PATH.JUNIOR_PLUS} element={<JuniorPlus/>}/>
 
                 <Route path={'/*'} element={<Error404/>}/>
             </Routes>
