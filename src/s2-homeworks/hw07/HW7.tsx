@@ -15,6 +15,7 @@ const arr = [
     { id: 1, value: 'Pre-Junior' },
     { id: 2, value: 'Junior' },
     { id: 3, value: 'Junior+' },
+    { id: 4, value: 'Junior-' }
 ] // value может быть изменено
 
 const HW7 = () => {

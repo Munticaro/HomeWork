@@ -1,5 +1,7 @@
 .radio {
     display: flex;
+    margin-right: 10px;
+
 
 }
 
@@ -13,9 +15,13 @@
 }
 
 .label {
+    display: flex;
 
 }
 
 .options {
+    font-family: 'Montserrat';
+    size: 15px;
+    line-height: 20px;
 
 }
