@@ -41,9 +41,9 @@ function Clock() {
         date.getMinutes()
     )}:${formatTime(date.getSeconds())}`;
 
-    const stringDate = date.toLocaleDateString('en-US');
-    const stringDay = date.toLocaleDateString('en-US', { weekday: 'long' });
-    const stringMonth = date.toLocaleDateString('en-US', { month: 'long' });
+    const stringDate = date.toLocaleDateString('en-US').replace(/\//g, '.');
+    const stringDay = date.toLocaleDateString('en-US', { weekday: 'long' }).replace('/', '.');
+    const stringMonth = date.toLocaleDateString('en-US', { month: 'long' }).replace('/', '.');
 
     return (
         <div className={s.clock}>
