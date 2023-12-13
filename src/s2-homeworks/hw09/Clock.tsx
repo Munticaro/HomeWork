@@ -42,7 +42,7 @@ function Clock() {
     )}:${formatTime(date.getSeconds())}`;
 
     const stringDate = date.toLocaleDateString('en-US').replace(/\//g, '.');
-    const stringDay = date.toLocaleDateString('en-US', { weekday: 'long' }).replace('/', '.');
+    const stringDay = date.toLocaleDateString('en-US', { weekday: 'long' });
     const stringMonth = date.toLocaleDateString('en-US', { month: 'long' }).replace('/', '.');
 
     return (
