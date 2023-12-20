@@ -1,4 +1,4 @@
-import React, {MouseEventHandler, useState} from 'react'
+import React, {useState} from 'react'
 import s from './HW11.module.css'
 import s2 from '../../s1-main/App.module.css'
 import { restoreState } from '../hw06/localStorage/localStorage'
