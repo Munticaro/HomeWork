@@ -4,7 +4,6 @@ import s2 from '../../s1-main/App.module.css'
 import SuperSelect from '../hw07/common/c5-SuperSelect/SuperSelect'
 import {useDispatch, useSelector} from 'react-redux'
 import {changeThemeId} from './bll/themeReducer'
-import {LoadingActionType} from "../hw10/bll/loadingReducer";
 import {AppStoreType} from "../hw10/bll/store";
 
 /*
@@ -45,7 +44,6 @@ const HW12 = () => {
                 <SuperSelect
                     id={'hw12-select-theme'}
                     className={s.select}
-                    value={themeId}
                     onChange={change}
                     options={themes.map((theme) => ({ value: theme.id, label: theme.value }))}
                 />
