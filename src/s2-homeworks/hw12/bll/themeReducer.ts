@@ -17,10 +17,7 @@ export const themeReducer = (state = initState, action: SetThemeIdAction): typeo
 
 export const changeThemeId = (id: number): SetThemeIdAction => ({ type: 'SET_THEME_ID', id }) // fix any
 
-
-const SET_THEME_ID = 'SET_THEME_ID';
-
 type SetThemeIdAction = {
-    type: typeof SET_THEME_ID;
-    id: number;
+    type: 'SET_THEME_ID'
+    id: number
 };

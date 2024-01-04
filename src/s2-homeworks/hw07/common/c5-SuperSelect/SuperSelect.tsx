@@ -13,7 +13,7 @@ type DefaultSelectPropsType = DetailedHTMLProps<
 type SuperSelectPropsType = DefaultSelectPropsType & {
     options?: any[]
     onChangeOption?: (option: any) => void
-    value?: any
+    value?: number
 }
 
 const SuperSelect: React.FC<SuperSelectPropsType> = ({

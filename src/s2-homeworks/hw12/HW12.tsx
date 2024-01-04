@@ -45,7 +45,8 @@ const HW12 = () => {
                     id={'hw12-select-theme'}
                     className={s.select}
                     onChange={change}
-                    options={themes.map((theme) => ({ value: theme.id, label: theme.value }))}
+                    value={themeId}
+                    options={themes}
                 />
             </div>
         </div>
