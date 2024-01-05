@@ -38,9 +38,9 @@ export const message0: MessageType = {
         name: 'Sasha',  // можно менять
     },
     message: {
-        text: 'Hello, she didnt do anything and rested all day, how are you?', // можно менять
+        text: 'Hello, how are you, what did you do yesterday?', // можно менять
 
-        time: '09:01', // можно менять
+        time: '09:00', // можно менять
     },
 }
 export const friendMessage0: MessageType = {
@@ -50,8 +50,8 @@ export const friendMessage0: MessageType = {
         name: 'Sahenka', // можно менять
     },
     message: {
-        text: 'Hello, how are you, what did you do yesterday?', // можно менять
-        time: '09:00', // можно менять
+        text: 'Hello, she didnt do anything and rested all day, how are you?', // можно менять
+        time: '09:01', // можно менять
     },
 }
 

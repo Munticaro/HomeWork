@@ -49,7 +49,6 @@ const HW13 = () => {
                 } else {
                     setImage(errorUnknown)
                     setCode('Error!')
-                    console.log(e)
                     setText(e.message)
                     setInfo(e.name)
                 }
