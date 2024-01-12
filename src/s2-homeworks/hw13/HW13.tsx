@@ -77,9 +77,8 @@ const HW13 = () => {
                         // дописать
 
                     >
-                        Send undefined
+                        Send true
                     </SuperButton>
-
                     <SuperButton
                         id={'hw13-send-undefined'}
                         onClick={send(undefined)}
@@ -88,7 +87,7 @@ const HW13 = () => {
                         // дописать
 
                     >
-                        Send true
+                        Send false
                     </SuperButton>
                     <SuperButton
                         id={'hw13-send-false'}
@@ -98,7 +97,7 @@ const HW13 = () => {
                         // дописать
 
                     >
-                        Send false
+                        Send undefined
                     </SuperButton>
                     <SuperButton
                         id={'hw13-send-null'}

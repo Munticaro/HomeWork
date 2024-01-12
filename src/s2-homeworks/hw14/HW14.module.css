@@ -1,7 +1,11 @@
 .tech {
-
+    padding-right: 5px;
+    font-family: Roboto, sans-serif;
+    padding-top: 3px;
 }
 
 .loading {
-
+    font-weight: bold;
+    color: #999;
+    font-family: Roboto, sans-serif;
 }
