@@ -48,7 +48,6 @@ const HW13 = () => {
                     setCode('Ошибка 500!')
                     setImage(error500)
                 } else if (e.response.status === 0) {
-                    console.log(e)
                     setImage(errorUnknown)
                     setCode('Error!')
                     setText(e.message)
