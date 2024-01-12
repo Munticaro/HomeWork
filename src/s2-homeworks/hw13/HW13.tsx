@@ -41,15 +41,23 @@ const HW13 = () => {
             })
             .catch((e) => {
                 if (e.response.status === 400) {
+                    console.log(e)
                     setCode('Ошибка 400!')
                     setImage(error400)
+                    setInfo(e.response.data.info)
+                    setText(e.response.data.errorText)
                 } else if (e.response.status === 500) {
+                    console.log(e)
                     setCode('Ошибка 500!')
                     setImage(error500)
+                    setInfo(e.response.data.info)
+                    setText(e.response.data.errorText)
                 } else if (e.response.status === 0) {
                     console.log(e)
                     setImage(errorUnknown)
                     setCode('Error!')
+                    setInfo(e.name)
+                    setText(e.message)
                 }
 
             })
@@ -69,8 +77,9 @@ const HW13 = () => {
                         // дописать
 
                     >
-                        Send true
+                        Send undefined
                     </SuperButton>
+
                     <SuperButton
                         id={'hw13-send-undefined'}
                         onClick={send(undefined)}
@@ -79,7 +88,7 @@ const HW13 = () => {
                         // дописать
 
                     >
-                        Send false
+                        Send true
                     </SuperButton>
                     <SuperButton
                         id={'hw13-send-false'}
@@ -89,7 +98,7 @@ const HW13 = () => {
                         // дописать
 
                     >
-                        Send undefined
+                        Send false
                     </SuperButton>
                     <SuperButton
                         id={'hw13-send-null'}
