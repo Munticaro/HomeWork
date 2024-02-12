@@ -69,6 +69,7 @@ const HW15 = () => {
         // setCount(
         setCount(newCount)
         // sendQuery(
+        setTotalCount(totalCount)
         sendQuery(techs)
         // setSearchParams(
         setSearchParams(searchParams)
